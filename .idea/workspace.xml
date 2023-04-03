@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75458e62-ff7b-47dd-8fcf-22ce17e72204" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/db/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/packages/db/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,17 @@
     &quot;ts.external.directory.path&quot;: &quot;\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\typescript\\lib&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.db:push">
+  <component name="RunManager" selected="npm.build:nextjs">
+    <configuration name="build:nextjs" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:nextjs" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="db:push" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/packages/db/package.json" />
       <command value="run" />
@@ -72,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build:nextjs" />
         <item itemvalue="npm.type-check" />
         <item itemvalue="npm.db:push" />
       </list>
