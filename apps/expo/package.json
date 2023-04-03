@@ -4,7 +4,7 @@
   "main": "index.tsx",
   "scripts": {
     "clean": "git clean -xdf .expo .turbo node_modules",
-    "dev": "expo start --ios",
+    "_dev": "expo start --ios",
     "dev:android": "expo start --android",
     "dev:ios": "expo start --ios",
     "lint": "eslint .",
@@ -33,12 +33,12 @@
     "superjson": "1.9.1"
   },
   "devDependencies": {
-    "@chuckl/api": "*",
-    "@chuckl/eslint-config": "*",
-    "@chuckl/tailwind-config": "*",
     "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
     "@babel/runtime": "^7.21.0",
+    "@chuckl/api": "*",
+    "@chuckl/eslint-config": "*",
+    "@chuckl/tailwind-config": "*",
     "@expo/config-plugins": "^6.0.1",
     "@types/react": "^18.0.31",
     "@types/webpack-env": "^1.18.0",
