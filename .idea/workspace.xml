@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75458e62-ff7b-47dd-8fcf-22ce17e72204" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/expo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/expo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/expo/src/utils/api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/expo/src/utils/api.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/expo/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/expo/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/postcss.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/postcss.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/api/auth/[...nextauth].ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/auth/[...nextauth].ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/api/trpc/[trpc].ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/trpc/[trpc].ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/utils/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/utils/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/api/src/router/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api/src/router/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/api/src/trpc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api/src/trpc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/auth/src/auth-options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/src/auth-options.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config/eslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config/eslint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config/tailwind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config/tailwind/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/db/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/db/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prettier.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/prettier.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" afterPath="$PROJECT_DIR$/renovate.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="useGoPathFromSystemEnvironment" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NvW20HaMMkjhYfbjCHQXHq0yOP" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/michu/Private/chuckl-mono",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_interpreter_path": "wsl://Ubuntu-20.04@/home/michu/.nvm/versions/node/v18.15.0/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\typescript\\lib"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="db:push" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packages/db/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="db:push" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.db:push" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

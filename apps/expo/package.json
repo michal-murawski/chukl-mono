@@ -1,5 +1,5 @@
 {
-  "name": "@acme/expo",
+  "name": "@chuckl/expo",
   "version": "0.1.0",
   "main": "index.tsx",
   "scripts": {
@@ -33,9 +33,9 @@
     "superjson": "1.9.1"
   },
   "devDependencies": {
-    "@acme/api": "*",
-    "@acme/eslint-config": "*",
-    "@acme/tailwind-config": "*",
+    "@chuckl/api": "*",
+    "@chuckl/eslint-config": "*",
+    "@chuckl/tailwind-config": "*",
     "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
     "@babel/runtime": "^7.21.0",
