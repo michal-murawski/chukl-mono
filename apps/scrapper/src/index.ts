@@ -1,16 +1,18 @@
-import express, { type Request, type Response } from "express";
+import http from "http";
 
-const app = express();
-const port = 8080;
+import { scrape9GAGHomePage } from "./scrappers/9gag-scrapper.ts";
 
-app.get("/", (_req: Request, res: Response) => {
-  return res.send("Express Typescript on Vercel");
+export const server = http.createServer((req, res) => {
+  res.writeHead(200, { "Content-Type": "application/json" });
+  res.end(
+    JSON.stringify({
+      data: "It Works!",
+    }),
+  );
 });
 
-app.get("/ping", (_req: Request, res: Response) => {
-  return res.send("pong 🏓");
-});
+await scrape9GAGHomePage();
 
-app.listen(port, () => {
-  return console.log(`Server is listening on ${port}`);
+server.listen(3000, () => {
+  console.log("Server running on http://localhost:3000/");
 });
