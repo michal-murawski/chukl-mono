@@ -1,0 +1,44 @@
+{
+  "name": "@chuckl/scrapper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm with-env rimraf dist && tsc -p tsconfig.build.json",
+    "add-build": "git add dist",
+    "clean": "git clean -xdf .next .turbo node_modules",
+    "dev": "pnpm with-env nodemon src/index.ts",
+    "lint": "dotenv -v SKIP_ENV_VALIDATION=1 next lint",
+    "lint:fix": "pnpm lint --fix",
+    "start": "pnpm with-env next start",
+    "type-check": "tsc --noEmit",
+    "with-env": "dotenv -e ../../.env --"
+  },
+  "pre-commit": [
+    "type-check",
+    "build",
+    "add-build"
+  ],
+  "dependencies": {
+    "@chuckl/api": "^0.1.0",
+    "@chuckl/db": "^0.1.0",
+    "@tanstack/react-query": "^4.28.0",
+    "@trpc/client": "^10.18.0",
+    "@trpc/next": "^10.18.0",
+    "@trpc/server": "^10.18.0",
+    "express": "^4.18.2",
+    "superjson": "1.9.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@chuckl/eslint-config": "^0.1.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.31",
+    "@types/react-dom": "^18.0.11",
+    "dotenv-cli": "^7.1.0",
+    "eslint": "^8.37.0",
+    "nodemon": "^2.0.22",
+    "rimraf": "^4.4.1",
+    "ts-node": "^10.9.1"
+  }
+}
