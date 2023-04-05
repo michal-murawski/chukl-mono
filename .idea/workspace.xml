@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75458e62-ff7b-47dd-8fcf-22ce17e72204" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/db/9gag.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/9gag-scrapper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/comments-types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/common-types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/nextjs/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/next.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/scrapper/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/db/9gag.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/db/9gag.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/9gag-scrapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/9gag-scrapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/posts-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,33 +42,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/michu/Private/chuckl-mono/apps/nextjs/src/pages/api/scrapper",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\eslint",
-    "node.js.selected.package.standard": "",
-    "nodejs_interpreter_path": "wsl://Ubuntu-20.04@/home/michu/.nvm/versions/node/v18.15.0/bin/node",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/michu/Private/chuckl-mono/apps/nextjs/src/db&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu-20.04@/home/michu/.nvm/versions/node/v18.15.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\db" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\pages\api\crones\scrapper" />
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\pages\api\scrapper" />
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\scrapper" />
     </key>
@@ -84,7 +88,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev (2)">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/apps/scrapper/package.json" />
       <command value="run" />
@@ -115,6 +119,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/apps/nextjs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -125,23 +139,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="type-check" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/apps/expo/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="type-check" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (2)" />
         <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build:nextjs" />
-        <item itemvalue="npm.type-check" />
       </list>
     </recent_temporary>
   </component>

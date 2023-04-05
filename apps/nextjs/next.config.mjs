@@ -6,9 +6,6 @@
 
 /** @type {import("next").NextConfig} */
 const config = {
-  experimental: {
-    top
-  },
   reactStrictMode: true,
   /** Enables hot reloading for local packages without a build step */
   transpilePackages: ["@chuckl/api", "@chuckl/auth", "@chuckl/db"],

@@ -161,9 +161,15 @@ importers:
       '@trpc/server':
         specifier: ^10.18.0
         version: 10.18.0
+      async:
+        specifier: ^3.2.4
+        version: 3.2.4
       chrome-aws-lambda:
         specifier: ^10.1.0
         version: 10.1.0(puppeteer-core@19.8.3)
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
       next:
         specifier: ^13.2.4
         version: 13.2.4(react-dom@18.2.0)(react@18.2.0)
@@ -192,6 +198,12 @@ importers:
       '@chuckl/eslint-config':
         specifier: ^0.1.0
         version: link:../../packages/config/eslint
+      '@types/async':
+        specifier: ^3.2.18
+        version: 3.2.18
+      '@types/lodash':
+        specifier: ^4.14.192
+        version: 4.14.192
       '@types/node':
         specifier: ^18.15.11
         version: 18.15.11
@@ -3203,6 +3215,10 @@ packages:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
 
+  /@types/async@3.2.18:
+    resolution: {integrity: sha512-/IsuXp3B9R//uRLi40VlIYoMp7OzhkunPe2fDu7jGfQXI9y3CDCx6FC4juRLSqrpmLst3vgsiK536AAGJFl4Ww==}
+    dev: true
+
   /@types/body-parser@1.19.2:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
@@ -3277,6 +3293,10 @@ packages:
     dependencies:
       '@types/node': 18.15.11
     dev: false
+
+  /@types/lodash@4.14.192:
+    resolution: {integrity: sha512-km+Vyn3BYm5ytMO13k9KTp27O75rbQ0NFw+U//g+PX7VZyjCioXaRFisqSIJRECljcTv73G3i6BpglNGHgUQ5A==}
+    dev: true
 
   /@types/mime@3.0.1:
     resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==}
