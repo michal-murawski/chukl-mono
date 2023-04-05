@@ -43,6 +43,6 @@
     "SKIP_ENV_VALIDATION",
     "VERCEL",
     "VERCEL_URL",
-    "PORT"
+    "CHROME_EXECUTABLE_PATH"
   ]
 }
