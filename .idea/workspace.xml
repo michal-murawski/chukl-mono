@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75458e62-ff7b-47dd-8fcf-22ce17e72204" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/scrapper/db/9gag.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/scrapper/src/scrappers/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/chuckl-mono.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chuckl-mono.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/db/9gag.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/9gag-scrapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/scrapper/nodemon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/scrapper/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag-scrapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag/9gag-scrapper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/scrapper/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/michu/Private/chuckl-mono",
+    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/michu/Private/chuckl-mono/apps/nextjs/src/pages/api/scrapper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\eslint",
@@ -69,9 +67,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\pages\api\scrapper" />
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\scrapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\pages\api\crones" />
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\scrapper\db" />
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\scrapper\src\scrappers\9gag" />
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\scrapper\src" />

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "pnpm with-env rimraf dist && tsc -p tsconfig.build.json",
     "clean": "git clean -xdf .next .turbo node_modules",
-    "dev": "pnpm with-env nodemon src/index.ts",
+    "_dev": "pnpm with-env nodemon src/index.ts",
     "lint": "dotenv -v SKIP_ENV_VALIDATION=1 next lint",
     "lint:fix": "pnpm lint --fix",
     "start": "pnpm with-env next start",
