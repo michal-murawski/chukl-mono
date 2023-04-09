@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import type { AppType } from "next/app";
+import Head from "next/head";
 import type { Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
 
@@ -11,6 +12,9 @@ const MyApp: AppType<{ session: Session | null }> = ({
 }) => {
   return (
     <>
+      <Head>
+        <title key="title">{`Top comments of the Web – Chuckl`}</title>
+      </Head>
       <SessionProvider session={session}>
         <Component {...pageProps} />
       </SessionProvider>

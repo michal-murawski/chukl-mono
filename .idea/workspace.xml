@@ -5,37 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75458e62-ff7b-47dd-8fcf-22ce17e72204" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/nextjs/public/9gag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/nextjs/public/robot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/_document.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/utils/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/expo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/expo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/nextjs/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/db/9gag.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/db/9gag.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/9gag-scrapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/9gag-scrapper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/posts-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/posts-types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/db/9gag.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/nodemon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag/9gag-scrapper.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/scrappers/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/tsconfig.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/config/eslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config/eslint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/config/tailwind/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config/tailwind/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/config/tailwind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config/tailwind/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/db/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/db/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-workspace.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,31 +37,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/michu/Private/chuckl-mono/apps/nextjs/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\eslint",
-    "node.js.selected.package.standard": "",
-    "nodejs_interpreter_path": "wsl://Ubuntu-20.04@/home/michu/.nvm/versions/node/v18.15.0/bin/node",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/michu/Private/chuckl-mono/apps/nextjs/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu-20.04@/home/michu/.nvm/versions/node/v18.15.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\public" />

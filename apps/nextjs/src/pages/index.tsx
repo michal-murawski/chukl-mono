@@ -119,13 +119,11 @@ export const getStaticProps: GetStaticProps<HomeProps> = () => {
     typed[j] = temp as ScrappedCommentDB;
   }
 
-  console.log("typed", typed.length);
-
   return {
     props: {
       comments: (typed).filter(
         (c) => c.body && !c.mediaUrl
-      ).slice(0, 50)
+      )
     },
     revalidate: 60 * 10 // 10 minutes
   };
