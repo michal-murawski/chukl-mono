@@ -1,6 +1,1 @@
-{
-  "crons": [{
-    "path": "/api/crones/scrapper/9gag-scrapper",
-    "schedule": "0 * * * *"
-  }]
-}
+{}
