@@ -5,16 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75458e62-ff7b-47dd-8fcf-22ce17e72204" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/scrapper/db/9gag.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/scrapper/src/scrappers/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/chuckl-mono.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chuckl-mono.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/nextjs/public/9gag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/nextjs/public/robot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/_document.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/nextjs/src/utils/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/scrapper/nodemon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/scrapper/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag-scrapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag/9gag-scrapper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbo.json" beforeDir="false" afterPath="$PROJECT_DIR$/turbo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/expo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/expo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/db/9gag.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/db/9gag.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/9gag-scrapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/9gag-scrapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/posts-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/api/crones/scrapper/posts-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/nextjs/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/nextjs/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/db/9gag.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag/9gag-scrapper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/scrappers/9gag/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/src/scrappers/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/scrapper/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config/eslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config/eslint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config/tailwind/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config/tailwind/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config/tailwind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config/tailwind/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/db/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/db/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-workspace.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +53,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/apps/expo/package.json" />
     <dismissed value="$PROJECT_DIR$/apps/nextjs/package.json" />
-    <dismissed value="$PROJECT_DIR$/apps/scrapper/package.json" />
     <dismissed value="$PROJECT_DIR$/package.json" />
+    <dismissed value="$PROJECT_DIR$/packages/api/package.json" />
+    <dismissed value="$PROJECT_DIR$/packages/auth/package.json" />
   </component>
   <component name="ProjectId" id="2NvW20HaMMkjhYfbjCHQXHq0yOP" />
   <component name="ProjectViewState">
@@ -55,7 +78,7 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/michu/Private/chuckl-mono",
+    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/michu/Private/chuckl-mono/apps/nextjs/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "\\\\wsl$\\Ubuntu-20.04\\home\\michu\\Private\\chuckl-mono\\node_modules\\eslint",
@@ -69,9 +92,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\scrapper" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\public" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\icons" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\db" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\pages\api\crones\scrapper" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\pages\api\scrapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\public" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\nextjs\src\pages\api\crones" />
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\scrapper\db" />
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\scrapper\src\scrappers\9gag" />
       <recent name="\\wsl$\Ubuntu-20.04\home\michu\Private\chuckl-mono\apps\scrapper\src" />
@@ -84,27 +113,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/apps/scrapper/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="build:nextjs" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build:nextjs" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.lint:fix">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/apps/scrapper/package.json" />
       <command value="run" />
@@ -115,8 +124,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/apps/nextjs/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -125,8 +134,28 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint:fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint:fix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="type-check" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/apps/expo/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="type-check" />
@@ -137,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev (1)" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.build:nextjs" />
+        <item itemvalue="npm.dev (2)" />
+        <item itemvalue="npm.lint:fix" />
         <item itemvalue="npm.type-check" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.dev (1)" />
       </list>
     </recent_temporary>
   </component>

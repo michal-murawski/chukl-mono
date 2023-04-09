@@ -1,15 +1,16 @@
-export type The9GagHotResponse = {
+export type The9GagPostsResponse = {
   meta: Meta;
   data: Data;
 };
 
 export type Data = {
-  posts: MemePost[];
+  posts: The9GAGPost[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   tags: any[];
   nextCursor: string;
 };
 
-export type MemePost = {
+export type The9GAGPost = {
   id: string;
   url: string;
   title: string;
