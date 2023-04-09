@@ -16,7 +16,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 console.log("directory-name 👉️", __dirname);
 
-const POSTS_LIMIT = 1000;
+const POSTS_LIMIT = 1500;
 
 async function fetchComments({
   memeId,
@@ -138,8 +138,8 @@ export default async function handler(
   res: NextApiResponse,
 ) {
   const [topMemes, homeMemes] = await Promise.allSettled([
-    await fetchAllMemesFor("top"),
-    await fetchAllMemesFor("home"),
+    fetchAllMemesFor("top"),
+    fetchAllMemesFor("home"),
   ]);
 
   if (topMemes.status === "rejected" || homeMemes.status === "rejected") {
@@ -170,7 +170,7 @@ export default async function handler(
             comments: commentsResponse.payload.comments,
           });
         })
-        .catch((err) => {
+        .catch((err: Error) => {
           callback(err);
         });
     })) as unknown as Record<string, The9GAGPostWithComments>;
@@ -178,10 +178,9 @@ export default async function handler(
     console.log(err);
   }
 
-  const commonComments: ScrappedCommentDB[] = Object.values(allWithComments)
+  const newCommonComments: ScrappedCommentDB[] = Object.values(allWithComments)
     .map((gagPost): ScrappedCommentDB[] => {
       const theBestThree = gagPost.comments
-        .slice()
         .sort((a, b) => {
           // highest like count first
           return b.likeCount - a.likeCount;
@@ -198,7 +197,7 @@ export default async function handler(
           children: [],
           creationTs: comment.timestamp,
           upVoteCount: comment.likeCount,
-          mediaUrl: comment.media?[0]
+          mediaUrl: comment.media
             ? comment.media[0]?.imageMetaByType.image.url
             : undefined,
         };
@@ -207,14 +206,18 @@ export default async function handler(
     .flat();
 
   try {
-    fs.writeFileSync(makeTargetPath(), JSON.stringify(commonComments), "utf8");
+    fs.writeFileSync(
+      makeTargetPath(),
+      JSON.stringify(newCommonComments),
+      "utf8",
+    );
   } catch (error) {
     console.log(error);
   }
 
   console.log("9GAG SCRAP: FINISHED!");
 
-  return res.status(200).json({ success: "true asd" });
+  return res.status(200).json({ success: "true" });
 }
 
 function makeTargetPath() {

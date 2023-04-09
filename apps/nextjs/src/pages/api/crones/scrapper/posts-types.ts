@@ -5,6 +5,7 @@ export type The9GagPostsResponse = {
 
 export type Data = {
   posts: The9GAGPost[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   tags: any[];
   nextCursor: string;
 };
