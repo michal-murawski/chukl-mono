@@ -121,11 +121,11 @@ export const getStaticProps: GetStaticProps<HomeProps> = () => {
 
   return {
     props: {
-      comments: (typed).filter(
+      comments: typed.slice(0, 300).filter(
         (c) => c.body && !c.mediaUrl
       )
     },
-    revalidate: 60 * 10 // 10 minutes
+    revalidate: 60 * 2 // 2 minutes
   };
 };
 
